@@ -46,16 +46,13 @@ export default function Feature1() {
       <div className="mx-auto max-w-screen-xl px-4 md:px-8">
         <div className="relative mx-auto max-w-2xl sm:text-center">
           <div className="relative z-10">
-            <div className="flex items-center justify-center text-sky-950 text-shadow-lg/30 text-shadow-sky-700">
+            <div className="flex items-center justify-center text-sky-950 text-shadow-lg/30 text-shadow-sky-00">
               <TextGenerateEffect
-                words="Welcome to Shucri.com"
+                words="ようこそ合同会社たなかへ"
                 className="text-6xl font-bold"
               />
             </div>
-            <p className="font-geist text-foreground/60 mt-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              congue, nisl eget molestie varius, enim ex faucibus purus.
-            </p>
+            <p className="font-geist text-foreground/60 mt-3"></p>
           </div>
           <div
             className="absolute inset-0 mx-auto h-44 max-w-xs blur-[118px]"
