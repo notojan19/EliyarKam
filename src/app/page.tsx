@@ -6,7 +6,6 @@ import TextRevealLetters from "@/components/mvpblocks/text-reveal-1";
 export default function Home() {
   return (
     <div>
-      <Feature1 />
       <FeatureSteps />
     </div>
   );
