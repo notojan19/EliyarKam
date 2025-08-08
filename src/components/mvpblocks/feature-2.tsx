@@ -12,8 +12,7 @@ const features = [
     content:
       "Create your MVP in record time with our pre-built blocks and components.",
     icon: <Rocket className="text-primary h-6 w-6" />,
-    image:
-      "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=2070&auto=format&fit=crop",
+    image: "/IMG_3265 2.png",
   },
   {
     step: "Step 2",
@@ -21,8 +20,7 @@ const features = [
     content:
       "Tailor every component to your needs with our intuitive design system and flexible architecture.",
     icon: <Paintbrush className="text-primary h-6 w-6" />,
-    image:
-      "https://images.unsplash.com/photo-1618761714954-0b8cd0026356?q=80&w=2070&auto=format&fit=crop",
+    image: "/IMG_3168 2.png",
   },
   {
     step: "Step 3",
@@ -30,8 +28,7 @@ const features = [
     content:
       "Launch your product with confidence using our optimized, responsive, and accessible components.",
     icon: <Code className="text-primary h-6 w-6" />,
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+    image: "/IMG_3408 2.png",
   },
   {
     step: "Step 4",
@@ -39,8 +36,15 @@ const features = [
     content:
       "Contribute your own blocks and become part of the MVPBlocks community.",
     icon: <Code className="text-primary h-6 w-6" />,
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+    image: "/IMG_3209 2.png",
+  },
+  {
+    step: "Step 4",
+    title: "Add Yours!",
+    content:
+      "Contribute your own blocks and become part of the MVPBlocks community.",
+    icon: <Code className="text-primary h-6 w-6" />,
+    image: "/IMG_3167 2.png",
   },
 ];
 
