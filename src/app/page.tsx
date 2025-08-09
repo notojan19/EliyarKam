@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <div>
       <ShuffleHero />
-
       <CTA1 />
     </div>
   );
