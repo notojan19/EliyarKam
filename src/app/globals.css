@@ -1,9 +1,10 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
 
 :root {
   --radius: 0.5rem;
-  --background: oklch(1.00000 0.00000 0);
+  --background: oklch(76.281% 0.07912 18.997);
   --foreground: oklch(0.14100 0.00500 285.82300);
   --card: oklch(1.00000 0.00000 0);
   --card-foreground: oklch(0.14100 0.00500 285.82300);
@@ -44,4 +45,22 @@
   --border: oklch(0.26658 0.01931 301.89430);
   --input: oklch(0.26658 0.01931 301.89430);
   --ring: oklch(0.49075 0.24130 292.58795);
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-reverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
 }
